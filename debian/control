@@ -1,0 +1,12 @@
+Source: ros-turbulent-map-msgs
+Section: misc
+Priority: extra
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-common, ros-turbulent-nav-msgs, ros-turbulent-rosidl-default-generators, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-ros-workspace, ros-turbulent-rmw-connext-cpp, ros-turbulent-rmw-fastrtps-cpp, ros-turbulent-rmw-implementation, ros-turbulent-rmw-opensplice-cpp, ros-turbulent-rosidl-typesupport-connext-c, ros-turbulent-rosidl-typesupport-connext-cpp, ros-turbulent-rosidl-typesupport-opensplice-c, ros-turbulent-rosidl-typesupport-opensplice-cpp
+Homepage: http://ros.org/wiki/map_msgs
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-map-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-nav-msgs, ros-turbulent-rosidl-default-runtime, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: This package defines messages commonly used in mapping packages.
